@@ -58,7 +58,7 @@ python3 run_tests.py
 ## Evaluation
 
 You can find the jupyter notebook I used to evaluate the test data in *code/eval_operators.ipynb*.
-The raw data for the tests can be found in */data/test_results*.
+Compressed versions of the evaluated test data can be found in */data/test_results*.
 
 ## Citation
 
