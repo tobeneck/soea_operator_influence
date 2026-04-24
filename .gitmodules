@@ -1,0 +1,7 @@
+[submodule "code/tea_pymoo"]
+	path = code/tea_pymoo
+	url = https://github.com/tobeneck/tea_pymoo.git
+	branch = dev
+[submodule "code/pymoo_problems"]
+	path = code/pymoo_problems
+	url = https://github.com/tobeneck/pymoo_problems.git
