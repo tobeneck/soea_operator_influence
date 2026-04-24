@@ -1,6 +1,6 @@
-# dis_test_repeats
+# Influence of Operators in Songle-Objective Evolutionary Algorithms
 Some repeats of the tests done in my first papers (CEC 2021 and SSCI 2021)
-
+This repository contains code for Chapter 7 of my dissertation. These tests are based on [this paper](https://doi.org/10.1109/CEC45853.2021.9504916). We test the influence of different crossover and mutation operators on the population dynamics of single-objective evolutionary algorithms. Check out the [paper](https://doi.org/10.1109/CEC45853.2021.9504916) or my dissertation for more information.
 
 
 
@@ -42,8 +42,47 @@ cd ../
 
 ## Generate the Test Data
 
-1. Generate the Initial Populations
+Test data was generated with python 3.9.6 and pymoo 0.6.1.5.
+
+**1. Generate the Initial Populations**
 ```bash
 cd code
 python3 generate_initial_pops.py
+```
+
+**2. Generate the test Data**
+```bash
+python3 run_tests.py
+```
+
+## Evaluation
+
+You can find the jupyter notebook I used to evaluate the test data in *code/eval_operators.ipynb*.
+The raw data for the tests can be found in */data/test_results*.
+
+## Citation
+
+This repository is repeating the tests of [this work](https://doi.org/10.1109/CEC45853.2021.9504916):
+```
+@inproceedings{beneckeTrackingHeritage2021,
+    title = {Tracking the {Heritage} of {Genes} in {Evolutionary} {Algorithms}},
+    doi = {10.1109/CEC45853.2021.9504916},
+    booktitle = {2021 {IEEE} {Congress} on {Evolutionary} {Computation} ({CEC})},
+    author = {Benecke, Tobias and Mostaghim, Sanaz},
+    month = jun,
+    year = {2021},
+    pages = {1800--1807},
+}
+
+```
+
+The tests were repeated for my dissertation:
+```
+@phdthesis{beneckeExploringPopulationDynamics2026,
+    title = {Exploring the Population Dynamics of Evolutionary Algorithms using Gene Heritage},
+    school = {Otto von Guericke University Magdeburg},
+    author = {Benecke, Tobias},
+    year = {2026},
+}
+
 ```
