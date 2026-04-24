@@ -1,5 +1,4 @@
 # Influence of Operators in Single-Objective Evolutionary Algorithms
-Some repeats of the tests done in my first papers (CEC 2021 and SSCI 2021)
 This repository contains code for Chapter 7 of my dissertation. These tests are based on [this paper](https://doi.org/10.1109/CEC45853.2021.9504916). We test the influence of different crossover and mutation operators on the population dynamics of single-objective evolutionary algorithms. Check out the [paper](https://doi.org/10.1109/CEC45853.2021.9504916) or my dissertation for more information.
 
 
