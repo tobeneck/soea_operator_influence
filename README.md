@@ -15,8 +15,8 @@ To set up the git repository, follow these steps:
 
 1. Clone the repository.
 ```bash
-git clone https://github.com/tobeneck/dis_test_repeats.git
-cd dis_test_repeats
+git clone https://github.com/tobeneck/soea_operator_influence.git
+cd soea_operator_influence
 ```
 
 2. Set up a virtual environment, for example venv, and install the required packages.
@@ -29,13 +29,8 @@ Besides the packages, the t-ea pymoo implementation is required to run the code 
 
 3. Clone and initialize the nessecary sub-repositories ([tea_pymoo](https://github.com/tobeneck/tea_pymoo) and [pymoo_problems](https://github.com/tobeneck/pymoo_problems)).
 ```bash
-cd code/tea_pymoo
 git submodule init
 git submodule update
-cd ../pymoo_problems
-git submodule init
-git submodule update
-cd ../
 ```
 
 
@@ -62,8 +57,20 @@ Plots and latex tables generated with the evaluation script are also available i
 
 ## Citation
 
-This repository is repeating the tests of [this work](https://doi.org/10.1109/CEC45853.2021.9504916):
+The tests are a repeat of [this work](https://doi.org/10.1109/CEC45853.2021.9504916) for [my dissertation](http://dx.doi.org/10.25673/123380):
+```bibtex
+@phdthesis{beneckeExploringPopulationDynamics2026,
+  title = {Exploring the Population Dynamics of Evolutionary Algorithms using Gene Heritage},
+  school = {Otto von Guericke University Magdeburg},
+  author = {Benecke, Tobias},
+  year = {2026},
+  url = {http://dx.doi.org/10.25673/123380},
+}
+
 ```
+
+Here is the citation for the [original work](https://doi.org/10.1109/CEC45853.2021.9504916):
+```bibtex
 @inproceedings{beneckeTrackingHeritage2021,
     title = {Tracking the {Heritage} of {Genes} in {Evolutionary} {Algorithms}},
     doi = {10.1109/CEC45853.2021.9504916},
@@ -73,16 +80,4 @@ This repository is repeating the tests of [this work](https://doi.org/10.1109/CE
     year = {2021},
     pages = {1800--1807},
 }
-
-```
-
-The tests were repeated for my dissertation:
-```
-@phdthesis{beneckeExploringPopulationDynamics2026,
-    title = {Exploring the Population Dynamics of Evolutionary Algorithms using Gene Heritage},
-    school = {Otto von Guericke University Magdeburg},
-    author = {Benecke, Tobias},
-    year = {2026},
-}
-
 ```
